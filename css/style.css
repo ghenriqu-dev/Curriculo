@@ -24,7 +24,7 @@ body{
 }
 
 .right{
-    padding: 0px 25px;
+    padding: 0px 30px;
 }
 
 .line{
@@ -47,10 +47,19 @@ body{
     margin-bottom: 0px;
 }
 
-.picture{
-    width: 200px;
+.description{
+    margin-left: 260px;
+    margin-top: 32px;
+    position: absolute;
+    float: right;
 }
 
-.intention, .picture{
-    display: inline-table;
+.description p, h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.picture{
+    width: 250px;
+    float: left;
 }
