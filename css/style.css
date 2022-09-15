@@ -8,12 +8,49 @@ body{
 }
 
 .name{
-    font-size: 50px;
+    font-size: 65px;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0px;
 }
 
-header h2{
-    font-size: 30px;
+.intention{
+    font-size: 40px;
     margin-top: 0px;
+    text-align: right;
+}
+
+.left, .right{
+    display: inline-block;
+}
+
+.right{
+    padding: 0px 25px;
+}
+
+.line{
+    padding-left: 800%;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+}
+
+.fields, .values{
+    display: inline-block;
+}
+
+.values{
+    color: rgb(87, 85, 85);
+    margin-left: 5px;
+}
+
+.dados p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.picture{
+    width: 200px;
+}
+
+.intention, .picture{
+    display: inline-table;
 }
