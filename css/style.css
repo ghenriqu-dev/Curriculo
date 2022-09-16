@@ -17,6 +17,8 @@ body{
     font-size: 40px;
     margin-top: 0px;
     text-align: right;
+    padding-top: 0px;
+    margin-bottom: 0px;
 }
 
 .left, .right{
@@ -49,7 +51,7 @@ body{
 
 .description{
     margin-left: 260px;
-    margin-top: 32px;
+    margin-top: 66px;
     position: absolute;
     float: right;
 }
@@ -64,13 +66,13 @@ body{
     float: left;
 }
 
-.attribute h2{
+h2{
     padding-top: 50px;
     margin-bottom: 30px;
     font-size: 50px;
 }
 
-.attribute div p{
+.attribute div p, .skills div p{
     margin: 0px 3px;
 }
 
@@ -90,19 +92,27 @@ body{
     font-size: 25px;
     padding-right: 10;
     margin: 0px 0px;
+    width: 280px;
 }
 
 .attributeField, .attributeValues{
     display: inline-block;
 }
 
-.attributeSapace{
-    margin: 8px 10px
+.attributeSpace{
+    margin: 8px 0px
 }
 
 .attributeCollum{
     display: inline-block;
-    margin-right: 35px;
+    margin-right: 15px;
+    width: 500px;
+}
+
+#line{
+    width: 800px;
+    margin: 50px 50px;
+    position: absolute;
 }
 
 @media screen and (max-width: 1052px){
