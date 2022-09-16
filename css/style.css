@@ -63,3 +63,87 @@ body{
     width: 250px;
     float: left;
 }
+
+.attribute h2{
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.attribute div p{
+    margin: 0px 3px;
+}
+
+.ball, .ballFilled{
+    border-radius: 50%;
+    display: inline-flex;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #000000;
+}
+
+.ballFilled{
+    background-color: #000000;
+}
+
+.attributeField{
+    font-size: 25px;
+    padding-right: 10;
+    margin: 0px 0px;
+}
+
+.attributeField, .attributeValues{
+    display: inline-block;
+}
+
+.attributeSapace{
+    margin: 8px 10px
+}
+
+.attributeCollum{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+@media screen and (max-width: 1052px){
+    .left{
+        margin-left: max(4vw, 12px);
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    
+    .picture{
+        float:none;
+        width: 80vw;
+    }
+
+    .intention{
+        margin-top: 30px;
+        margin-bottom: 0px;
+        text-align: left;
+        font-size: 7vw;
+    }
+
+    .description{
+        margin-left: 0px;
+        margin-right: 4vw;
+        position: none;
+        float: none;
+        font-size: 3vw;
+    }
+
+    .description h3{
+        font-size: 5vw
+    }
+
+    .dados{
+        font-size: max(3vw, 8px);
+        align-content: left;
+        display: none;
+    }
+
+    .name{
+        font-size: 10vw;
+        text-align: center;
+    }
+}
